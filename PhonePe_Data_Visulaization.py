@@ -8,26 +8,7 @@ from plotly.subplots import make_subplots
 warnings.filterwarnings("ignore")
 st. set_page_config(layout="wide")
 
-# Getting Secrets from Streamlit Secret File
-# username=st.secrets['user']
-# password=st.secrets['password']
-# Endpoint=st.secrets['end']
 
-# # CONNECTED TO (AWS)Amazon-Web-Services ----> (RDS)Relational-Database-Service 
-# conn=pymysql.connect(
-#     host=Endpoint,
-#     user=username,
-#     password=password
-# )
-
-# # USING PhonepeDB I HAVE CREATED IN DATABASE-INSTANCE OF RDS
-# mycursor=conn.cursor()
-# sql='''USE PhonepeDB'''
-# mycursor.execute(sql)
-
-# # RETRIEVING DATA FROM CLOUD DATABASE
-# query = 'select * from Longitude_Latitude_State_Table'
-# Indian_States = pd.read_sql(query, con = conn)
 
 # DATASETS
 Data_Aggregated_Transaction_df= pd.read_csv(r'data/Data_Aggregated_Transaction_Table.csv')
