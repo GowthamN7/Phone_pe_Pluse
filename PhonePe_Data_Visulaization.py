@@ -46,10 +46,10 @@ with row1[1]:
                                    "nav-link-selected": {"background-color": "#6F36AD"}})
 
 #connecting mysql
-mydb = sql.connect(host="localhost",
-                   user="root",
-                   password="Gixxer@7071",
-                   database= "phonepe"
+mydb = sql.connect(host="bqeav050j1rn23nrqkqk-mysql.services.clever-cloud.com",
+                   user="ujegbjtzrc9rzuec",
+                   password="ydSYwdbRAkUKHtJSLcP9",
+                   database= "bqeav050j1rn23nrqkqk"
                   )
 mycursor = mydb.cursor(buffered=True)
 
